@@ -6,17 +6,18 @@
     <title>Pankaj M Sajjanar | Data Engineer & AI Specialist</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
-        body { font-family: 'Arial', sans-serif; }
-        .profile-img { width: 150px; height: 150px; border-radius: 50%; border: 3px solid #00bfff; }
+        body { font-family: 'Arial', sans-serif; background-color: #121212; color: white; }
+        .profile-img { width: 180px; height: 180px; border-radius: 50%; border: 4px solid #00bfff; }
         .highlight { color: #00bfff; font-weight: bold; }
-        .section-bg { background: rgba(255, 255, 255, 0.1); padding: 20px; border-radius: 10px; }
-        .cta-button { background-color: #00bfff; color: white; padding: 10px 20px; border-radius: 5px; text-decoration: none; font-weight: bold; }
-        .cta-button:hover { background-color: #0080ff; }
+        .section-bg { background: rgba(255, 255, 255, 0.1); padding: 20px; border-radius: 10px; box-shadow: 0px 0px 10px #00bfff; }
+        .cta-button { background-color: #00bfff; color: white; padding: 12px 25px; border-radius: 5px; text-decoration: none; font-weight: bold; transition: 0.3s; }
+        .cta-button:hover { background-color: #0080ff; transform: scale(1.05); }
+        .company-logo { width: 120px; height: auto; margin-bottom: 10px; }
     </style>
 </head>
-<body class="bg-gray-900 text-white">
+<body>
     <div class="container mx-auto p-8 text-center">
-        <img src="YOUR_IMAGE_LINK_HERE" alt="Profile Picture" class="profile-img mx-auto">
+        <img src="https://github.com/MSPANKAJ/Portfolio/blob/main/Pankaj.jpg" alt="Profile Picture" class="profile-img mx-auto">
         <h1 class="text-5xl font-bold text-blue-400 mt-4">Pankaj M Sajjanar</h1>
         <p class="text-lg mt-2 text-gray-300">Data Engineer | Cloud Specialist | AI Enthusiast</p>
         <blockquote class="mt-4 text-xl text-gray-400 italic">“Without data, you're just another person with an opinion.”</blockquote>
@@ -24,37 +25,29 @@
 
     <div class="container mx-auto p-8">
         <section class="my-10 section-bg">
-            <h2 class="text-3xl text-blue-300">Professional Summary</h2>
-            <p class="mt-2 text-gray-400">Data Engineer with 4+ years of expertise in **ETL development, cloud solutions (AWS, GCP), and real-time analytics**. Skilled in optimizing data pipelines, reducing latency by 30%, and integrating AI/ML models for predictive analytics. Passionate about scalable data architectures and high-impact data solutions.</p>
-        </section>
-
-        <section class="my-10 section-bg">
-            <h2 class="text-3xl text-blue-300">Technical Skills</h2>
-            <ul class="mt-4 grid grid-cols-2 md:grid-cols-3 gap-4">
-                <li class="bg-gray-800 p-4 rounded-lg">Python, SQL, Java</li>
-                <li class="bg-gray-800 p-4 rounded-lg">Apache Spark, Kafka, Flink</li>
-                <li class="bg-gray-800 p-4 rounded-lg">AWS, GCP, Azure</li>
-                <li class="bg-gray-800 p-4 rounded-lg">ETL, Data Warehousing, Big Data</li>
-                <li class="bg-gray-800 p-4 rounded-lg">Machine Learning, AI, Deep Learning</li>
-                <li class="bg-gray-800 p-4 rounded-lg">CI/CD, Docker, Kubernetes</li>
-            </ul>
+            <h2 class="text-3xl text-blue-300">Education</h2>
+            <p class="text-gray-400 mt-2"><span class="highlight">Stevens Institute of Technology, Hoboken, NJ</span> - Master of Science in Data Science (May 2025) | GPA: 3.9</p>
+            <p class="text-gray-400">Relevant Courses: Big Data Analytics, Statistical Methods, Optimization for Data Science, Machine Learning, Applied Mathematics</p>
+            <p class="text-gray-400 mt-4"><span class="highlight">PES University, Bangalore, India</span> - Bachelor of Technology in Computer Science and Engineering (May 2019) | GPA: 3.3</p>
         </section>
 
         <section class="my-10 section-bg">
             <h2 class="text-3xl text-blue-300">Work Experience</h2>
             <div class="mt-4">
+                <img src="https://github.com/MSPANKAJ/Portfolio/blob/main/TU.jpg" alt="TransUnion Logo" class="company-logo">
                 <h3 class="text-xl text-blue-400">Data Engineer, TRANSUNION (2019 - 2022)</h3>
                 <ul class="text-gray-400 list-disc pl-6">
-                    <li>Optimized ETL pipelines reducing processing time by **35%**.</li>
-                    <li>Implemented ML-based anomaly detection, reducing data issues by **25%**.</li>
-                    <li>Built real-time analytics for marketing data, improving ROI tracking by **25%**.</li>
+                    <li>Optimized ETL pipelines reducing processing time by 35%.</li>
+                    <li>Implemented ML-based anomaly detection, reducing data issues by 20%</li>
+                    <li>Built real-time analytics for marketing data, improving ROI tracking by 25%.</li>
                 </ul>
             </div>
             <div class="mt-4">
+                <img src="https://github.com/MSPANKAJ/Portfolio/blob/main/Scripbox.jpg" alt="Scripbox Logo" class="company-logo">
                 <h3 class="text-xl text-blue-400">Data Science Intern, SCRIPBOX (2019)</h3>
                 <ul class="text-gray-400 list-disc pl-6">
-                    <li>Developed automated ETL pipelines improving financial data accuracy by **15%**.</li>
-                    <li>Designed **Tableau dashboards** reducing manual reporting by **40%**.</li>
+                    <li>Developed automated ETL pipelines improving financial data accuracy by 15%.</li>
+                    <li>Designed **Tableau dashboards** reducing manual reporting by 40%.</li>
                 </ul>
             </div>
         </section>
@@ -63,11 +56,11 @@
             <h2 class="text-3xl text-blue-300">Projects</h2>
             <div class="mt-4">
                 <h3 class="text-xl text-blue-400">Real-Time Credit Card Fraud Detection</h3>
-                <p class="text-gray-400">Built an ML-powered fraud detection system using Apache Kafka and Spark, improving fraud detection rates by **28%**.</p>
+                <p class="text-gray-400">Built an ML-powered fraud detection system using Apache Kafka and Spark, improving fraud detection rates by 28%.</p>
             </div>
             <div class="mt-4">
                 <h3 class="text-xl text-blue-400">ETL Pipeline for Healthcare Data</h3>
-                <p class="text-gray-400">Designed AWS-based pipelines to integrate and process healthcare records, optimizing query speeds by **30%**.</p>
+                <p class="text-gray-400">Designed AWS-based pipelines to integrate and process healthcare records, optimizing query speeds by 30%.</p>
             </div>
         </section>
 
